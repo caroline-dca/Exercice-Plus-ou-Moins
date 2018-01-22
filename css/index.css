@@ -1,0 +1,54 @@
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #282d4f;
+  /* padding-top: 20px; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container
+{
+  border: 1px solid white;
+  margin: 20%;
+  text-align: center;
+}
+
+.container h1
+{
+  color: #a0204c;
+  font-size: 3em;
+  margin: 20px;
+}
+
+.container #boutonJouer
+{
+  background-color: #23103a;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.container form
+{
+  /* background-color: #a0204c; */
+  color: white;
+  font-size: 1em;
+  padding: 20px;
+  /* margin: 10px; */
+  border: 1px solid white;
+}
+
+.jeu
+{
+  background-color: white;
+}

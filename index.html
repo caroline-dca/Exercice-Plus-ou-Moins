@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Jeu + ou -</title>
+</head>
+<body>
+
+  <div class = "container">
+    <h1>Plus ou Moins</h1>
+
+    <form>
+      <p>Choisir un niveau de difficulté:</p>
+      <div>
+        <p>
+          <input type="radio" id="diff1"
+          name="diff" value="diff1">
+          <label for="diff1">1 (facile)</label>
+        </p>
+        <p>
+          <input type="radio" id="diff2"
+          name="diff" value="diff2">
+          <label for="diff2">2 (moyen)</label>
+        </p>
+        <p>
+          <input type="radio" id="diff3"
+          name="diff" value="diff3">
+          <label for="diff3">3 (difficile)</label>
+        </p>
+
+      </div>
+
+      <div>
+        <button id="boutonJouer" type="submit" onclick="jeu()">JOUER</button>
+      </div>
+        <p>
+          <label for="nbUtilisateur">Entrez un chiffre:</label>
+          <input type="text" name="nbUtilisateur" id="nbUtilisateur"/>
+          <button id = "boutonOK" type="submit">OK</button>
+        </p>
+
+    </form>
+
+
+    <!-- affichage du résultat -->
+    <div id = "jeu">
+    </div>
+    <div id = "reinit">
+      <button id="boutonReinit" type="submit" onclick="">Réinitialiser</button>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+
+</body>
+
+
+</html>
